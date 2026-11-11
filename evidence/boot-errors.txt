@@ -1,0 +1,33 @@
+Selected diagnostic tokens from private experiment reports.
+This is a curated index, not a consecutive raw log or a timestamped transcript.
+No hardware identifiers, credentials or personal data are included.
+
+[Early preloader failure]
+vendor FF / revision 6 / MR8 18
+rank count 1
+detected rank sizes: [0x100000000, 0]
+selected EMI rank sizes: [0x100000000, 0x100000000]
+MDL=-1
+setting failed=FFFFFFFF
+ASSERT emi.c:2173
+
+[Android 15 GSI init failure]
+invalid_context: adbd_tradeinmode_prop
+invalid_context: bionic_linker_16kb_app_compat_prop
+invalid_context: bluetooth_finder_prop
+Failed to initialize property area
+InitFatalReboot / signal 6
+
+[Screenshot failure]
+SIGSEGV / null address
+createScreenCaptureOutput(ScreenCaptureOutputArgs)+988
+renderScreenImpl
+SurfaceFlinger software BuildId: 3c06727c25e244b283c8af816b313194
+
+[Optional restore helper]
+SecurityException / isBackupEnabled / android.permission.BACKUP
+Disabling the helper additionally caused ActivityNotFoundException in GMS.
+
+[Unresolved modem output]
++ENVSIGERR:1
+CME65535

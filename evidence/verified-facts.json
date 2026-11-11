@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "recorded_date": "2026-11-11",
+  "case_count": 1,
+  "evidence_scope": "Curated technical summary of private experiment records, not raw device evidence or independent replication.",
+  "hardware": {
+    "model": "Redmi 15C 4G / 25078RA3EA",
+    "codename": "dew",
+    "hardware_code": "0x0707",
+    "observed_rank_sizes_bytes": [
+      4294967296,
+      0
+    ],
+    "physical_reason_for_rank_mismatch": "unknown"
+  },
+  "preloader": {
+    "source_sha256": "e0551e72a36744b2f67b5093120c539535e499f2f0810b5ccd299d7bbdced0b4",
+    "candidate_sha256": "124f6b0cb55c53bd0016ad5490aed0c8c38187f967e9c81f7de95eb1d75bd8fe",
+    "file_bytes": 339640,
+    "changed_bytes": 54,
+    "changed_sectors_per_hardware_boot_area": [
+      384,
+      496,
+      636,
+      663,
+      664,
+      666
+    ],
+    "sector_bytes": 512,
+    "actual_SBC0_required": true,
+    "modified_OEM_RSA_signature_valid": false,
+    "full_hardware_boot_readback_and_software_reboot_observed": true,
+    "full_power_cycle_tested": false
+  },
+  "gsi": {
+    "build_id": "BP1A.250405.005.C1",
+    "build_number": "13151952",
+    "variant": "ARM64+GMS",
+    "reported_security_patch": "2025-04-05",
+    "system_img_sha256": "1514fa7127b2bc446f637507cde10b1887fcf263306189f12f75fa799e235ccf",
+    "official_distribution_zip_sha256": "48d6db2ad0638ff7a23bb1dcb154221ee693afe0f88340b4000bda44940ff885",
+    "verified_working_LK_candidate": "global15_216",
+    "global_LK_patch_offset": "0x3deb8",
+    "global_LK_patch_bytes_hex": "43f00abd"
+  },
+  "policy": {
+    "property_context_types_checked": 630,
+    "old_missing_property_types": [
+      "adbd_tradeinmode_prop",
+      "bionic_linker_16kb_app_compat_prop",
+      "bluetooth_finder_prop",
+      "ctl_artd_pre_reboot_prop",
+      "ctl_prefetch_prop",
+      "ctl_uprobestats_prop",
+      "debug_tracing_desktop_mode_visible_tasks_prop",
+      "device_config_mmd_native_prop",
+      "high_barometer_quality_prop",
+      "mmd_prop",
+      "page_size_prop",
+      "pm_16kb_app_compat_prop",
+      "prefetch_boot_prop",
+      "prefetch_service_prop",
+      "remote_prov_cert_prop",
+      "system_service_enable_prop",
+      "trusty_security_vm_sys_prop",
+      "trusty_security_vm_sys_vendor_prop",
+      "virtual_face_prop",
+      "virtual_fingerprint_prop"
+    ],
+    "new_missing_property_types": [],
+    "root_attributes": [
+      "appdomain",
+      "coredomain",
+      "hal_allocator_client",
+      "hal_atrace_client",
+      "hal_audio_client",
+      "hal_authsecret_client",
+      "hal_bluetooth_client",
+      "hal_bootctl_client",
+      "hal_camera_client",
+      "hal_cas_client",
+      "hal_configstore_client",
+      "hal_confirmationui_client",
+      "hal_contexthub_client",
+      "hal_drm_client",
+      "hal_dumpstate_client",
+      "hal_fingerprint_client",
+      "hal_gatekeeper_client",
+      "hal_gnss_client",
+      "hal_graphics_allocator_client",
+      "hal_graphics_composer_client",
+      "hal_health_client",
+      "hal_input_classifier_client",
+      "hal_ir_client",
+      "hal_keymaster_client",
+      "hal_light_client",
+      "hal_mediaquality_client",
+      "hal_memtrack_client",
+      "hal_neuralnetworks_client",
+      "hal_nfc_client",
+      "hal_oemlock_client",
+      "hal_power_client",
+      "hal_rebootescrow_client",
+      "hal_secretkeeper_client",
+      "hal_secure_element_client",
+      "hal_sensors_client",
+      "hal_telephony_client",
+      "hal_tetheroffload_client",
+      "hal_thermal_client",
+      "hal_tv_cec_client",
+      "hal_tv_hdmi_cec_client",
+      "hal_tv_hdmi_connection_client",
+      "hal_tv_hdmi_earc_client",
+      "hal_tv_input_client",
+      "hal_tv_tuner_client",
+      "hal_usb_client",
+      "hal_vibrator_client",
+      "hal_vr_client",
+      "hal_weaver_client",
+      "hal_wifi_client",
+      "hal_wifi_hostapd_client",
+      "hal_wifi_supplicant_client",
+      "halclientdomain",
+      "mlstrustedsubject",
+      "netdomain"
+    ],
+    "global_SELinux": "Enforcing",
+    "permissive_domains": [
+      "su"
+    ],
+    "changed_cpio_members": [
+      "userdebug_plat_sepolicy.cil"
+    ],
+    "candidate_payload_bytes": 30973952,
+    "written_partition_bytes": 67108864,
+    "secilc_compilation_passed": true,
+    "neverallow_validation_claimed": false,
+    "physical_readback_and_boot_observed": true
+  },
+  "graphics": {
+    "original_backend": "skiagl",
+    "tested_backend": "skiaglthreaded",
+    "upstream_ownership_fix": "37973d9a8e812cf54c8fa017767003896e9737f5",
+    "workaround_survives_full_reboot": false
+  },
+  "display": {
+    "native_size_pixels": [
+      720,
+      1600
+    ],
+    "density_dpi": 320,
+    "rounded_corner_radius_pixels": 86,
+    "cutout_width_height_pixels": [
+      82,
+      74
+    ],
+    "portrait_status_bar_height_pixels": 74,
+    "added_safe_side_padding_pixels": 40,
+    "SystemUI_top_padding_port_pixels": 16,
+    "observed_overlay_persistence_after_full_reboot": false
+  },
+  "backup": {
+    "area_bytes": {
+      "USER": 125069950976,
+      "BOOT0": 4194304,
+      "BOOT1": 4194304
+    },
+    "total_raw_bytes": 125078339584,
+    "current_archive_decimal_GB_approx": 9.161,
+    "earlier_archive_decimal_GB_approx": 14.225,
+    "independent_cold_source_hash_and_full_SSD_decode_verified": true,
+    "full_USER_restore_to_phone_tested": false,
+    "RPMB_or_efuse_cloned": false
+  },
+  "known_limits": [
+    "Modem +ENVSIGERR:1 / CME65535 remained",
+    "SIM/calls, camera, biometrics and Play Integrity not fully tested",
+    "Full DRAM health and original cause of the rank mismatch unknown",
+    "One device only; no model-wide defect demonstrated",
+    "Public Java profile guards compiled but not device-retested during publication"
+  ]
+}
